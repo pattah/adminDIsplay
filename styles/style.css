@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+   
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    word-break: normal;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #e2e8f0;
+}
+
+.containerII {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.topNav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+
+}
+
+.headerOne { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center;            
+    background-color: #f8fafc;
+    height: 4rem;
+    
+}
+
+.headerTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8fafc;
+    height: 5rem;
+    box-shadow: 0px 0.275rem 5px rgba(34, 34, 34, 0.295)
+}                           
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.userNameText {
+    display: flex;
+    margin-left: 1em;
+    flex-direction: column;
+    
+}
+
+.userName {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-right: 6em;
+}
+.buttons>button {
+    background-color: #334155;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin: 1em;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 20px;
+    
+}
+
+
+.headerTwoAvatar {
+    height: 4.5rem;
+    border-radius: 50%;
+    width: 4.5rem;
+    object-fit:cover;
+    margin-left: 2em;
+    margin-bottom: 0.25em;
+}
+
+.bell {
+    height: 2rem;
+    width: 2rem;
+    
+}
+
+.headerOneAvatar {
+    height: 3.5rem;
+    width: 3.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    
+}
+
+.headerOneUser {
+  font-size: 1.5rem;
+  width: 5rem;
+  margin-left: -1.5em;
+  font-weight: bold;
+}
+.rightSideHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+    margin-right: 4em;
+    width: 15rem;
+    
+}
+
+.searchInput {
+    height: 1.8rem;
+    width: 40rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #cbd5e1;
+    overflow: hidden;
+    margin-left: 0.3em;
+    
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    width: 70rem;
+    
+}
+
+.searchBarButton {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-image: url(../images/glass.svg);
+    background-color: #f8fafc;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    object-fit: contain;
+    margin-top: 0.2em;
+    
+}
+
+.searchInput:focus {
+    outline: none;
+}
+.leftSideContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+   height: 100vh;
+   width: 20rem;
+  background-color: #334155;
+   
+}
+
+
+
+.listOneImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.listOneImage>img {
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+
+.leftNavDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    
+}
+
+.leftNav>ul {
+    list-style: none;
+    height: 14rem;
+    font-size: 1.5rem;
+    width: 1rem;
+    margin: 4em;
+    color: white;
+    
+    
+}
+
+.listOne, .listTwo {
+    padding: 0.7em;
+    padding-left: 0.6em;
+    font-size: 1.3rem;
+}
+
+
+.dashboardText {
+font-weight: bold;
+display: flex;
+align-items: center;
+margin-top: 0.5em;
+
+
+}
+
+.dashboardText>span {
+    margin-right: 2em;
+}
+
+.dashboardText>img {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 0.3em;
+}
+
+
+.leftNav>ul>.listOne {
+    margin: 0.8em;
+}
+
+.leftNav>ul>.listTwo {
+    margin: 0.8em;
+}
+.secondNav {
+    width: 15rem;
+}
+
+.myprojects {
+    font-size: 50px;
+}
+
+
+
+.projectsContainer {
+    margin: 2em;
+    margin-left: 3em;
+    display: grid;
+    grid-template-columns: 35rem 35rem;
+    grid-template-rows: 12rem 12rem 12rem;
+    row-gap: 1.5em;
+    column-gap: 1em;
+}
+
+#projectsOne, #projectsTwo, #projectsThree, #projectsFour, #projectsFive, #projectsSix {
+    background-color: #f8fafc;
+    box-shadow: 0 0 0.3em rgba(34, 34, 34, 0.295), inset 0.7em 0em #334155;
+   
+    padding: 2em
+}
+
+#projectsOne>span, #projectsTwo>span, #projectsThree>span, #projectsFour>span, #projectsFive>span, #projectsSix>span {
+    font-weight: bold;
+}
+
+
+
+.avatarOne, .avatarTwo, .avatarThree, .avatarFour {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+}
+
+.avatarOne>img, .avatarTwo>img, .avatarThree>img, .avatarFour>img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 1.3em;
+    
+}
+.firstUser, .secondUser, .thirdUser, .fourthUser {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.one, .two, .three, .four {
+    font-weight: bold;
+}
+
+.oneOne, .twoTwo, .threeThree, .fourFour {
+    font-size: 0.9rem;
+    color: #464646;
+}
+
+.userNicknames {
+    display: flex;
+    align-items: center;
+}
+.imagesProjectsSix, .imagesProjectsFive, .imagesProjectsFour, .imagesProjectsThree, .imagesProjectsTwo, .imagesProjectsOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 2em;
+    gap: 1em;
+    height: 1.5rem;
+    width: 31rem;
+}
+
+.projAnnContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.trendingAvatars {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2em;
+    
+}
+
+.rightSideContainer {
+    display: grid;
+    grid-template-columns: 23rem;
+    grid-template-rows: 17rem 17rem;
+    row-gap: 4.99em;
+    justify-content: center;
+    margin: 2em;
+    margin-left: 1em;
+    height: 39rem;
+    width: 35%;
+    background-color: #e2e8f0;
+}
+
+.announContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-items: center;
+  
+  background-color: #f8fafc;
+  box-shadow: 0 0 0.3em rgba(34, 34, 34, 0.295);
+}
+
+.announOne>span, .announTwo>span, .announThree>span {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.announOne>p, .announTwo>p, .announThree>p {
+font-size: 0.7rem;
+}
+.trendingContainer {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background-color: #f8fafc;
+  box-shadow: 0 0 0.3em rgba(34, 34, 34, 0.295)
+}
+
+
+
+.line {
+   height: 0.01rem;
+   width: 21rem;
+    border: 0.01rem solid #cbd5e1;
+    
+}
+
+.titles {
+    width: 84.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 0.1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.myProjects {
+    margin-left: 2em;
+}
+
+
