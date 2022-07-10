@@ -12,12 +12,28 @@ body {
     min-height: 100vh;
 }
 
+
+/* main container */
 .container {
     display: flex;
     flex-direction: row;
     background-color: #e2e8f0;
 }
 
+/* Your projects and Annoucements text */
+.titles {
+    width: 84.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 0.1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/* Your Projects and Annoucements text */
+
+
+/* header */
 .containerII {
     display: flex;
     flex-direction: column;
@@ -30,7 +46,6 @@ body {
   height: 20%;
 
 }
-
 .headerOne { 
     display: flex;
     flex-direction: row;
@@ -40,7 +55,6 @@ body {
     height: 4rem;
     
 }
-
 .headerTwo {
     display: flex;
     align-items: center;
@@ -49,24 +63,20 @@ body {
     height: 5rem;
     box-shadow: 0px 0.275rem 5px rgba(34, 34, 34, 0.295)
 }                           
-
 .logoContainer {
     display: flex;
     align-items: center;
 }
-
 .userNameText {
     display: flex;
     margin-left: 1em;
     flex-direction: column;
     
 }
-
 .userName {
     font-size: 2rem;
     font-weight: bold;
 }
-
 .buttons {
     margin-right: 6em;
 }
@@ -81,8 +91,6 @@ body {
     border-radius: 20px;
     
 }
-
-
 .headerTwoAvatar {
     height: 4.5rem;
     border-radius: 50%;
@@ -91,13 +99,11 @@ body {
     margin-left: 2em;
     margin-bottom: 0.25em;
 }
-
 .bell {
     height: 2rem;
     width: 2rem;
     
 }
-
 .headerOneAvatar {
     height: 3.5rem;
     width: 3.5rem;
@@ -106,7 +112,6 @@ body {
     
     
 }
-
 .headerOneUser {
   font-size: 1.5rem;
   width: 5rem;
@@ -122,7 +127,6 @@ body {
     width: 15rem;
     
 }
-
 .searchInput {
     height: 1.8rem;
     width: 40rem;
@@ -133,14 +137,12 @@ body {
     margin-left: 0.3em;
     
 }
-
 .searchBar {
     display: flex;
     flex-direction: row;
     width: 70rem;
     
 }
-
 .searchBarButton {
     height: 2rem;
     width: 2rem;
@@ -154,10 +156,13 @@ body {
     margin-top: 0.2em;
     
 }
-
 .searchInput:focus {
     outline: none;
 }
+/* header */
+
+
+/* left side container */
 .leftSideContainer {
     display: flex;
     flex-direction: column;
@@ -169,28 +174,22 @@ body {
   background-color: #334155;
    
 }
-
-
-
 .listOneImage {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .listOneImage>img {
     height: 1.5rem;
     width: 1.5rem;
     
 }
-
 .leftNavDiv {
     display: flex;
     flex-direction: column;
     margin-right: 1em;
     
 }
-
 .leftNav>ul {
     list-style: none;
     height: 14rem;
@@ -201,14 +200,12 @@ body {
     
     
 }
-
 .listOne, .listTwo {
     padding: 0.7em;
     padding-left: 0.6em;
     font-size: 1.3rem;
+    list-style: none;
 }
-
-
 .dashboardText {
 font-weight: bold;
 display: flex;
@@ -217,35 +214,30 @@ margin-top: 0.5em;
 
 
 }
-
 .dashboardText>span {
     margin-right: 2em;
 }
-
 .dashboardText>img {
     height: 2.5rem;
     width: 2.5rem;
     margin-right: 0.3em;
 }
-
-
 .leftNav>ul>.listOne {
     margin: 0.8em;
+    
 }
-
 .leftNav>ul>.listTwo {
     margin: 0.8em;
+    
 }
-.secondNav {
-    width: 15rem;
-}
+/* left side container */
 
+
+
+/* Your projects container */
 .myprojects {
     font-size: 50px;
 }
-
-
-
 .projectsContainer {
     margin: 2em;
     margin-left: 3em;
@@ -255,52 +247,14 @@ margin-top: 0.5em;
     row-gap: 1.5em;
     column-gap: 1em;
 }
-
 #projectsOne, #projectsTwo, #projectsThree, #projectsFour, #projectsFive, #projectsSix {
     background-color: #f8fafc;
     box-shadow: 0 0 0.3em rgba(34, 34, 34, 0.295), inset 0.7em 0em #334155;
    
     padding: 2em
 }
-
 #projectsOne>span, #projectsTwo>span, #projectsThree>span, #projectsFour>span, #projectsFive>span, #projectsSix>span {
     font-weight: bold;
-}
-
-
-
-.avatarOne, .avatarTwo, .avatarThree, .avatarFour {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   
-}
-
-.avatarOne>img, .avatarTwo>img, .avatarThree>img, .avatarFour>img {
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    margin-right: 1.3em;
-    
-}
-.firstUser, .secondUser, .thirdUser, .fourthUser {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.one, .two, .three, .four {
-    font-weight: bold;
-}
-
-.oneOne, .twoTwo, .threeThree, .fourFour {
-    font-size: 0.9rem;
-    color: #464646;
-}
-
-.userNicknames {
-    display: flex;
-    align-items: center;
 }
 .imagesProjectsSix, .imagesProjectsFive, .imagesProjectsFour, .imagesProjectsThree, .imagesProjectsTwo, .imagesProjectsOne {
     display: flex;
@@ -311,19 +265,14 @@ margin-top: 0.5em;
     height: 1.5rem;
     width: 31rem;
 }
-
-.projAnnContainer {
-    display: flex;
-    flex-direction: row;
+.myProjects {
+    margin-left: 2em;
 }
+/* Your projects container */
 
-.trendingAvatars {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.2em;
-    
-}
 
+
+/* Right side container */
 .rightSideContainer {
     display: grid;
     grid-template-columns: 23rem;
@@ -336,24 +285,68 @@ margin-top: 0.5em;
     width: 35%;
     background-color: #e2e8f0;
 }
+.projAnnContainer {
+    display: flex;
+    flex-direction: row;
+}
 
+/* Announcements container */
 .announContainer {
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
-  align-items: center;
-  
-  background-color: #f8fafc;
-  box-shadow: 0 0 0.3em rgba(34, 34, 34, 0.295);
-}
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    background-color: #f8fafc;
+    box-shadow: 0 0 0.3em rgba(34, 34, 34, 0.295);
+  }
+  .announOne>span, .announTwo>span, .announThree>span {
+      font-weight: bold;
+      font-size: 0.9rem;
+  }
+  .announOne>p, .announTwo>p, .announThree>p {
+  font-size: 0.7rem;
+  }
+  .line {
+    height: 0.01rem;
+    width: 21rem;
+     border: 0.01rem solid #cbd5e1; 
+  }
+/* Announcements container */
 
-.announOne>span, .announTwo>span, .announThree>span {
+
+/* Trending container */
+.avatarOne, .avatarTwo, .avatarThree, .avatarFour {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.avatarOne>img, .avatarTwo>img, .avatarThree>img, .avatarFour>img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 1.3em;   
+}
+.firstUser, .secondUser, .thirdUser, .fourthUser {
+    display: flex;
+    flex-direction: column;
+    
+}
+.one, .two, .three, .four {
     font-weight: bold;
-    font-size: 0.9rem;
 }
-
-.announOne>p, .announTwo>p, .announThree>p {
-font-size: 0.7rem;
+.oneOne, .twoTwo, .threeThree, .fourFour {
+    font-size: 0.9rem;
+    color: #464646;
+}
+.userNicknames {
+    display: flex;
+    align-items: center;
+}
+.trendingAvatars {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2em;
+    
 }
 .trendingContainer {
   display: flex;
@@ -362,28 +355,13 @@ font-size: 0.7rem;
   background-color: #f8fafc;
   box-shadow: 0 0 0.3em rgba(34, 34, 34, 0.295)
 }
+/* Trending container */
 
 
 
-.line {
-   height: 0.01rem;
-   width: 21rem;
-    border: 0.01rem solid #cbd5e1;
-    
-}
 
-.titles {
-    width: 84.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 0.1rem;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
 
-.myProjects {
-    margin-left: 2em;
-}
+
+
 
 
