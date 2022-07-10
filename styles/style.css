@@ -32,7 +32,6 @@ body {
 }
 /* Your Projects and Annoucements text */
 
-
 /* header */
 .containerII {
     display: flex;
@@ -228,10 +227,9 @@ margin-top: 0.5em;
 }
 .leftNav>ul>.listTwo {
     margin: 0.8em;
-    
+    list-style: none;
 }
 /* left side container */
-
 
 
 /* Your projects container */
